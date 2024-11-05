@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import home, Suscriber, Contact
 
-# Register your models here.
+admin.site.register(home)
+admin.site.register(Suscriber)
+admin.site.register(Contact)
